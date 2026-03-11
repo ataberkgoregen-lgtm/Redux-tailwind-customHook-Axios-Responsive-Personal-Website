@@ -1,4 +1,5 @@
 const initialState = {
+  theme: "light",
   tr: {
     personal: {
       name: "Almila Su",

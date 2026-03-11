@@ -1,14 +1,12 @@
 export default {
-    content: [
-        "./index.html",
-        "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-        extend: {
-            fontFamily: {
-                primary: ["Inter", "sans-serif"], // fallback ekledik
-            },
-        },
+  darkMode: "class",
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        primary: ["Inter", "sans-serif"], // fallback ekledik
+      },
     },
-    plugins: [],
+  },
+  plugins: [],
 };

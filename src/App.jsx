@@ -11,7 +11,7 @@ import Projects from "./components/projects";
 import Footer from "./components/footer";
 function App() {
   return (
-    <div className="font-primary">
+    <div className="font-primary bg-white dark:bg-[#252128]">
       <Header></Header>
       <Hero></Hero>
       <Skills></Skills>
