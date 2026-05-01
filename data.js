@@ -81,7 +81,7 @@ const initialState = {
         tags: ["react", "redux", "axios"],
         links: {
           github: "https://github.com/ataberkgoregen-lgtm/e-commerce-website",
-          live: "https://vercel.com/ataberkgoregen-6182s-projects/e-commerce-website",
+          live: "https://e-commerce-website-vert-three.vercel.app/",
         },
       },
       {
@@ -92,8 +92,9 @@ const initialState = {
           "Kullanıcılara yapay zeka destekli etkileşim sunan basit ve özelleştirilebilir bir web uygulaması. React ve Redux ile geliştirilmiş olup, Google Gemini API entegrasyonu sayesinde kullanıcılar dinamik içerik üretebilir ve akıllı öneriler alabilir. Modern frontend teknolojileriyle oluşturulan bu yapı.",
         tags: ["react", "redux", "axios"],
         links: {
-          github: "https://customhookgeminiai.vercel.app/",
-          live: "https://github.com/ataberkgoregen-lgtm/customhook-geminiAI-website",
+          github:
+            "https://github.com/ataberkgoregen-lgtm/customhook-geminiAI-website",
+          live: "https://customhookgeminiai.vercel.app/",
         },
       },
       {
@@ -194,7 +195,7 @@ const initialState = {
         tags: ["react", "redux", "axios"],
         links: {
           github: "https://github.com/ataberkgoregen-lgtm/e-commerce-website",
-          live: "https://vercel.com/ataberkgoregen-6182s-projects/e-commerce-website",
+          live: "https://e-commerce-website-vert-three.vercel.app/",
         },
       },
       {
@@ -205,8 +206,9 @@ const initialState = {
           "A simple and customizable web application that provides users with AI-powered interactions. It is built using React and Redux, and through integration with the Google Gemini API, users can generate dynamic content and receive intelligent suggestions. This structure is developed using modern frontend technologies.",
         tags: ["react", "redux", "axios"],
         links: {
-          github: "https://customhookgeminiai.vercel.app/",
-          live: "https://github.com/ataberkgoregen-lgtm/customhook-geminiAI-website",
+          github:
+            "https://github.com/ataberkgoregen-lgtm/customhook-geminiAI-website",
+          live: "https://customhookgeminiai.vercel.app/",
         },
       },
       {
