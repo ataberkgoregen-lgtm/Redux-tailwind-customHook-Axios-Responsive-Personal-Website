@@ -22,8 +22,8 @@ export default function Hero() {
           {data.personal.bio}
         </div>
 
-        <div className="flex md:flex-row flex-col gap-3 mt-5 w-max m-auto md:m-0">
-          <div className="flex">
+        <div className="flex md:flex-row flex-col gap-3 mt-5 w-full m-auto md:m-0">
+          <div className="flex justify-center">
             <a
               href={data.personal.links.personalBlog}
               className="flex flex-row items-center bg-[#4338CA] px-8 py-2 m-auto text-white rounded-md font-medium dark:bg-[#E1E1FF] dark:text-black text-l sm:text-sm"
@@ -32,7 +32,7 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="flex flex-row  gap-15 md:gap-3 ">
+          <div className="flex flex-row gap-1 md:gap-3 ">
             <a
               href={data.personal.links.github}
               className="flex flex-row items-center text-[#4338CA] px-6 border-1 rounded-md font-medium gap-1 dark:bg-[#383838] dark:text-[#BAB2E7] dark:border-1-[#E1E1FF] py-1 pl-1 text-sm sm:text-sm "
@@ -51,7 +51,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="ml-10 flex flex-row items-center justify-center ">
+      <div className="xl:ml-10 flex flex-row items-center justify-center mt-10 xl:mt-0 ">
         <img src={profilePhoto} alt="" className="w-fit h-fit rounded-2xl" />
       </div>
     </div>

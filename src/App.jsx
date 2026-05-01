@@ -10,7 +10,7 @@ import Projects from "./components/projects";
 import Footer from "./components/footer";
 function App() {
   return (
-    <div className="font-primary bg-white dark:bg-[#252128]">
+    <div className="font-primary bg-white dark:bg-[#252128] box-border">
       <Header></Header>
       <Hero></Hero>
       <Skills></Skills>
